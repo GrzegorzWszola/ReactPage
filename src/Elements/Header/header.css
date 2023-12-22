@@ -1,0 +1,50 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header_Logo{
+    font-size: 4.5rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+    padding-left: 3rem;
+    color: var(--text-color);
+}
+
+.Header_Navbar{
+    padding-right: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.Header_Link{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.Header_Link::after{
+    border-radius: 2em;
+    border-top: .2em solid var(--text-color);
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: .02em;
+    left: 0;
+    transition: right .4s cubic-bezier(0,.5,0,1),
+            border-color .4s ease-out;
+}
+
+.Header_Link:hover{
+    color: rgba(var(--text-color), 0.8);
+    transition: color .4s ease;
+}
+
+.Header_Link:hover::after {
+    border-color: rgba(var(--text-color), 0.8);
+    right: 0;
+  }

@@ -1,0 +1,21 @@
+.Home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home_Text{
+    flex: 3;
+}
+
+.Home_Model{
+    flex: 1;
+}
+
+.Home_Main{
+    font-size: 10rem;
+    font-weight: 900;
+}
+
+.Home_Subtext{
+    font-size: 2rem;
+}
