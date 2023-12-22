@@ -1,5 +1,6 @@
 import React from "react"
 import { Canvas } from '@react-three/fiber'
+import GitHubImg from "../../assets/GitHub.png"
 
 
 import './Home.css'
@@ -17,7 +18,7 @@ const Home = () => {
                     eligendi quisquam dolores aperiam!
                 </div>
                 <div className="Home_Links">
-                    <a href="">Git</a>
+                    <a href="https://github.com/GrzegorzWszola" target="_blank"><img src={GitHubImg} alt="GitHub" className="Home_Social_Logo"/></a>
                     <a href="">Fb</a>
                     <a href="">LinkedIn</a>
                 </div>

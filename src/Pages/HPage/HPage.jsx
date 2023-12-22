@@ -7,7 +7,7 @@ import { Header, About, Footer, Home, Projects, Contacts } from '../../Elements/
 const HPage = () => {
     return(
         <div>
-            <div className='section_padding'><Header/></div>
+            <div className='section_header'><Header/></div>
             <div className='section_padding'><Home/></div>
             <div className='section_padding'><About/></div>
             <div className='section_padding'><Projects/></div>

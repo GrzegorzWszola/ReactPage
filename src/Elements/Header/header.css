@@ -5,9 +5,8 @@
 }
 
 .Header_Logo{
-    font-size: 4.5rem;
-    font-weight: 900;
-    letter-spacing: 4px;
+    font-size: 3rem;
+    font-weight: 800;
     color: var(--text-color);
 }
 
@@ -19,7 +18,7 @@
 .Header_Link{
     text-decoration: none;
     color: var(--text-color);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 800;
     letter-spacing: 2px;
     position: relative;
