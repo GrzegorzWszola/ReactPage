@@ -1,9 +1,13 @@
+
+
 .section_header{
     padding: 1rem 2rem;
+    width: 100%;
+    background-color: var(--background-color);
 }
 
 .section_padding{
-    padding: 1rem 4rem;
+    padding: 1rem 9rem;
   }
   
   @media screen and (max-width: 900px){

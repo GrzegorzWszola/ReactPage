@@ -1,10 +1,9 @@
 import React from "react"
-import { Canvas } from '@react-three/fiber'
 import GitHubImg from "../../assets/GitHub.png"
+import LinkedInImg from "../../assets/LinkedIn.png"
 
 
 import './Home.css'
-
 
 
 const Home = () => {
@@ -18,16 +17,16 @@ const Home = () => {
                     eligendi quisquam dolores aperiam!
                 </div>
                 <div className="Home_Links">
-                    <a href="https://github.com/GrzegorzWszola" target="_blank"><img src={GitHubImg} alt="GitHub" className="Home_Social_Logo"/></a>
-                    <a href="">Fb</a>
-                    <a href="">LinkedIn</a>
+                    <a href="https://github.com/GrzegorzWszola" target="_blank"><img src={GitHubImg} alt="GitHub" className="Home_GitHubLogo"/></a>
+                    <a href="https://www.linkedin.com/in/grzegorz-wszoła-7b520a267/" target="_blank"><img src={LinkedInImg} alt="LinkedIn" className="Home_LinkedLogo"/></a>
                 </div>
             </div>
-            <div className="Home_Model">
-                <script type="module" src="./3DModel.jsx"></script>
-            </div>
+            <div className="Home_Background background1"></div>
+            <div className="Home_Background background2"></div>
+            <div className="Home_Background background3"></div>
         </div>
     )
+        
 }
 
 export default Home
