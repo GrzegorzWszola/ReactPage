@@ -1,21 +1,19 @@
 .Home{
-    display: flex;
-    justify-content: space-between;
-}
-
-.Home_Text{
-    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .Home_Model{
-    flex: 1;
+    width: 100% !important;
 }
 
 .Home_Main{
+    line-height: 9rem;
     font-size: 10rem;
     font-weight: 900;
 }
 
 .Home_Subtext{
+    padding-top: 2rem;
     font-size: 2rem;
 }
