@@ -1,0 +1,17 @@
+/* ---------- appearence of scrollbar -----------*/
+::-webkit-scrollbar{
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+  }
+
+::-webkit-scrollbar-thumb {
+    background: var(--text-color);
+    border-radius: 2rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--background-color2);
+}

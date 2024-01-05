@@ -9,7 +9,7 @@ const Header = () =>{
     const [isMenuClicked, setIsMenuClicked] = useState(false)
 
     const UpdateMenu = () => {
-        if(isMenuClicked){
+        if(isMenuClicked && window.innerWidth <= 520){
             setBurgerClass("Header_BurgerMenu_Component clicked")
             setMenuClass("Header_Navbar visible")
         } else {
